@@ -1,0 +1,12 @@
+node_modules/
+public/development/
+public/production/
+log/
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.log
