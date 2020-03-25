@@ -9,6 +9,7 @@
   },
   "scripts": {
     "gulp": "gulp",
+    "heroku-postbuild": "npm run build-prod",
     "build-dev": "set NODE_ENV=development && gulp",
     "build-prod": "set NODE_ENV=production && gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
